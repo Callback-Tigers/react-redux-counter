@@ -22,6 +22,10 @@ const Hello = ()=>{
              <button onClick={inc}> Increase </button>
              <button onClick={()=>dispatch(decrease())}> Decrease </button>
              <button onClick={()=>dispatch(reset())}> Reset </button>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
         </div>
     )
 }
